@@ -1,0 +1,16 @@
+{
+  "name": "day-2-roydigerhund",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.css, *.html\"",
+    "dev": "browser-sync start --server --files \"*.css, *.html\" --startPath \"index.html\""
+  }
+}
